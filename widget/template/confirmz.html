@@ -1,0 +1,13 @@
+<div class="dijitDialog" role="dialog" aria-labelledby="${id}_title">
+	<div data-dojo-attach-point="titleBar" class="dijitDialogTitleBar">
+		<span data-dojo-attach-point="titleNode" class="dijitDialogTitle" id="${id}_title"
+				role="heading" level="1"></span>
+		<span data-dojo-attach-point="closeButtonNode" class="dijitDialogCloseIcon" data-dojo-attach-event="ondijitclick: onCancel" title="${buttonCancel}" role="button" tabIndex="-1">
+			<span data-dojo-attach-point="closeText" class="closeText" title="${buttonCancel}">x</span>
+		</span>
+	</div>
+	<div data-dojo-attach-point="containerNode" style="margin:0" class="dijitDialogPaneContent">
+	<span data-dojo-attach-event="ondijitclick: onSubmit"><button data-dojo-type="dijit/form/Button">确定</button></span>
+	<span data-dojo-attach-event="ondijitclick: onCancel"><button data-dojo-type="dijit/form/Button">取消</button></span>
+	</div>
+</div>
