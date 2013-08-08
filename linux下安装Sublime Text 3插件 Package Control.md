@@ -1,4 +1,4 @@
-##Linux 安装Sublime Text 3 插件 Package Control
+###Linux 安装Sublime Text 3 插件 Package Control
 ======
 
 
